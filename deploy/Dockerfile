@@ -20,7 +20,6 @@ ENV NPM_CONFIG_LOGLEVEL=warn
 # Utilise Docker cache to save re-installing dependencies if unchanged
 COPY ./package*.json ./
 COPY ./yarn.lock ./
-COPY ./.yarn ./.yarn
 
 # Install dependencies
 RUN yarn install --immutable
