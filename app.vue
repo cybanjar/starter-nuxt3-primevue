@@ -4,7 +4,8 @@
 			<img alt="Vue logo" src="./assets/images/primevue-logo.png" />
 			<Toast />
 
-			<div class="mt-4 flex">
+			<div class="mt-4 flex flex-column">
+				Update
 				<MultiSelect v-model="selectedCities" :options="cities" optionLabel="name" placeholder="Select Cities"
             :maxSelectedLabels="3" class="w-full md:w-20rem" />
 
