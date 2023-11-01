@@ -5,7 +5,7 @@
 			<Toast />
 
 			<div class="mt-4 flex flex-column">
-				Update
+				Setup
 				<MultiSelect v-model="selectedCities" :options="cities" optionLabel="name" placeholder="Select Cities"
             :maxSelectedLabels="3" class="w-full md:w-20rem" />
 
